@@ -22,5 +22,5 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - Flexbox
 ## Author
 
-- Linkedin - [@yourusername](https://www.twitter.com/yourusername)
+- Linkedin - https://www.linkedin.com/in/wallaceanterio/
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
