@@ -6,23 +6,106 @@
    --Very-dark-blue: hsl(215, 32%, 27%);
    --White: hsl(0, 0%, 100%);
 }
-/* INFO
- - Mobile: 375px
-- Desktop: 1440px
-- Font size (paragraph): 18px
- */
 
 body {
    margin: 10%;
    display: flex;
    align-items: center;
    justify-content: center;
-   background-color: var(--Very-dark-plus-blue);
+   background-color: var(--Very-dark-main-blue);
 }
 
 .container {
-   width: 400px;
-   height: 550px;
    display: flex;
-   border: 5px solid white;
+   width: 350px;
+   height: 555px;
+   border: 1px solid var(--Very-dark-plus-blue);
+   border-radius: 10px;
+}
+.content {
+   box-shadow: 5px 5px 10px 5px hsl(217, 54%, 11%);
+}
+
+.img {
+   display: flex;
+   padding: 1.2rem;
+   justify-content: center;
+   flex-direction: column;
+   border-radius: 10px;
+   background-color: var(--Very-dark-plus-blue);
+}
+
+.equilibrium__img {
+   border-radius: 8px;
+   width: 100%;
+}
+
+h1 {
+   color: var(--White);
+   font-family: Outfit;
+   font-size: 1.6rem;
+   font-weight: 500;
+}
+
+span#equilibrium_info {
+   color: var(--Soft-blue);
+   opacity: 0.6;
+   font-family: Outfit;
+   line-height: 1.5rem;
+}
+
+.ethereum__img {
+   width: 100%;
+   border-bottom: 1px solid var(--Soft-blue);
+   margin-top: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: var(--Soft-blue);
+   opacity: 0.6;
+}
+
+.ethereum__svg {
+   padding-right: 0.4rem;
+}
+
+.ether_svg {
+   display: flex;
+   align-items: center;
+   margin-bottom: 1rem;
+}
+
+p#cyan {
+   color: var(--Cyan);
+   font-weight: 600;
+   font-family: Outfit;
+}
+img#svg_clock {
+   padding-right: 0.3rem;
+}
+#days {
+   font-weight: 600;
+   font-family: Outfit;
+}
+
+.avatar__main {
+   margin-top: 0.5rem;
+   display: flex;
+   align-items: center;
+}
+.avatar__main span {
+   padding-left: 1rem;
+   font-family: Outfit;
+   color: var(--Soft-blue);
+}
+
+.avatar_img {
+   border: 1px solid white;
+   border-radius: 50px;
+   margin-top: 0.4rem;
+   width: 35px;
+}
+.avatar__main #credits {
+   color: white;
+   padding-left: 0;
 }
